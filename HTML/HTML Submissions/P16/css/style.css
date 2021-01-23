@@ -1,0 +1,26 @@
+.square{
+    padding: 5%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    margin: 0 auto;
+    transition: 2s;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.red:hover{
+    background-color: green;
+}
+.green:hover{
+    background-color: blue;
+}
+.blue:hover{
+    background-color: red;
+}

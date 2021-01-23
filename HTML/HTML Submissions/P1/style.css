@@ -1,0 +1,19 @@
+.parent-div{
+    margin: -80px 500px 20px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-left: 250px solid transparent;
+    border-bottom: 250px solid yellow;
+    transition: 2s;
+}
+.triangle:hover{
+    transform: rotate(180deg);
+    border-top: 350px solid red;
+    border-bottom: 350px solid transparent;
+    border-right: 350px solid transparent;
+    border-left: 350px solid transparent;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent-div{
+            margin:-50px 500px;
+        }
+        .triangle{
+            width: 0;
+            height: 0;
+            border-top: 250px solid transparent;
+            border-right: 250px solid transparent;
+            border-left: 250px solid transparent;
+            border-bottom: 250px solid yellow;
+            transition: 2s;
+        }
+        .triangle:hover{
+            transform: rotate(180deg);
+            border-top: 350px solid red;
+            border-bottom: 350px solid transparent;
+            border-right: 350px solid transparent;
+            border-left: 350px solid transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent parent-div">
+        <div class="triangle"></div>
+    </div>
+</body>
+</html>

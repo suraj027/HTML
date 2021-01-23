@@ -1,0 +1,10 @@
+table, th, td {
+    border: 1px solid black;
+    margin: 150px 450px 150px 450px;
+  }
+  th, td {
+    padding: 35px;
+  }
+table:hover{
+  background-color: brown;
+}

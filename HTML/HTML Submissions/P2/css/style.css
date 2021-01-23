@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: orange
+}
+
+nav li{
+    display: inline-block;   
+}
+
+nav li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: calc(20% - 10px) calc(2rem + 10px);
+}
+
+nav li a:hover{
+    background-color: whitesmoke;
+    box-shadow: 1px 2px;
+    transition: 2s;
+}

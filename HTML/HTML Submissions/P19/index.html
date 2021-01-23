@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.body{
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+.container{
+    padding: 10px;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: wheat;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 14px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: red;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+</style>
+
+<body>
+    <form action="/action_page.php"></form>
+    <div class="container">
+        <h1>Sign-up</h1>
+        <h3>Please fill-up the form</h3>
+        <br>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email">
+        <br>
+
+        <label for="pw"><b>Password</b></label>
+        <input type="text" placeholder="Enter Password" name="pw">
+        <br>
+
+        <label for="pwr"><b>Re-enter Password</b></label>
+        <input type="text" placeholder="Re-enter Password" name="pwr">
+        <br>
+        
+        <h3>Select gender:</h3>
+        <form action="#">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="not say" name="gender" value="prefer not to say">
+            <label for="not say">Prefer not to say</label>
+        </form>
+        <br>
+        <h3>Select age group</h3>
+        <form action="#">
+            <input type="radio" id="u18" name="ag1" value="ag1">
+            <label for="ag1">Under 18</label><br>
+
+            <input type="radio" id="18-24" name="ag2" value="ag2">
+            <label for="ag2">Between 18 to 24</label><br>
+
+            <input type="radio" id="25-30" name="ag3" value="ag3">
+            <label for="ag3">Between 25 to 30</label><br>
+
+            <input type="radio" id="31-40" name="ag4" value="ag4">
+            <label for="ag4">Between 31 to 40</label><br>
+
+            <input type="radio" id="a40" name="ag5" value="ag5">
+            <label for="ag5">Above 40</label><br>
+        </form>
+
+        <button type="cancel" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+</body>
+</html>

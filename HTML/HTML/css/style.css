@@ -1,0 +1,41 @@
+.box{
+    border: 3px solid black;
+    padding: 150px;
+    width: 300px;
+    height: 100px;
+    margin: 122px 500px;
+}
+.box2{
+    border: 3px solid black;
+    padding: 100px;
+    width: 242px;
+    height: 100px;
+    margin: -105px -77px;
+
+}
+.box3{
+    border: 3px solid black;
+    padding: 100px;
+    width: 127px;
+    height: 1px;
+    margin: -254px -18px;
+}
+.box4{
+    border: 3px solid black;
+    padding: 50px;
+    width: 197px;
+    height: 49px;
+    margin: 70px -3px;
+}
+.box:hover{
+    background-color: cyan;
+}
+.box2:hover{
+    background-color: yellow;
+}
+.box3:hover{
+    background-color: navy;
+}
+.box4:hover{
+    background-color: lightgreen;
+}

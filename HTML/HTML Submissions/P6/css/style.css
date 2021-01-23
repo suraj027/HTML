@@ -1,0 +1,9 @@
+.parent-div{
+    margin: 0 auto;
+}
+.box{
+    width: 177px;
+    height: 450px;
+    background-color: rgb(61, 58, 58);
+    text-align: left;
+}
